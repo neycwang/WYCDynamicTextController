@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WYCDynamicTextController_Example' do
+  pod 'WYCDynamicTextController', :path => '../'
+
+  target 'WYCDynamicTextController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

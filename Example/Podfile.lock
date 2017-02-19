@@ -1,0 +1,16 @@
+PODS:
+  - WYCDynamicTextController (0.1.0)
+
+DEPENDENCIES:
+  - WYCDynamicTextController (from `../`)
+
+EXTERNAL SOURCES:
+  WYCDynamicTextController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WYCDynamicTextController: c71eb445b52c0c6bf785b01a6d27ff61fc991a33
+
+PODFILE CHECKSUM: 6e052f15bdfffbdb4251fe8075563622e039000d
+
+COCOAPODS: 1.1.1

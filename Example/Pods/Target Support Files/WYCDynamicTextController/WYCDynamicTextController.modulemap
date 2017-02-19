@@ -1,0 +1,6 @@
+framework module WYCDynamicTextController {
+  umbrella header "WYCDynamicTextController-umbrella.h"
+
+  export *
+  module * { export * }
+}
