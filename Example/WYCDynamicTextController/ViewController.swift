@@ -6,19 +6,14 @@
 //  Copyright (c) 2017 neycwang@gmail.com. All rights reserved.
 //
 
-import UIKit
+import WYCDynamicTextController
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: WYCDynamicTextController
+{
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = .red
+        textField.placeholder = "Tap to edit"
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
-

@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		1236F3CF24E5C8D79457A6A7A48D6BA4 /* Pods-WYCDynamicTextController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C556E056C030A33DC7637885E85A0C /* Pods-WYCDynamicTextController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		139E29C72452045C36D51B47BD619E81 /* WYCDynamicTextController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B9E1584EFCB22960E12537A432A8EB /* WYCDynamicTextController-dummy.m */; };
+		1895FFB61E599A040028B14C /* WYCDynamicTextController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895FFB41E5999C10028B14C /* WYCDynamicTextController.swift */; };
 		2AC2BCA877F36BBDBA46FBAA54753190 /* WYCDynamicTextController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F20D3623A655A241341E8007415E7F /* WYCDynamicTextController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62FBE91C929158EDBD3AE72D0FE33449 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		970BEAA34F35030B03BDC2F34919C888 /* Pods-WYCDynamicTextController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B801CCAE396C3CAF129EE1A2CB57B652 /* Pods-WYCDynamicTextController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A59E6980A9DFB91FFCB9C2F8EAF21DBC /* Pods-WYCDynamicTextController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FD8846F9AC8BFB98DFE077092A27E6 /* Pods-WYCDynamicTextController_Example-dummy.m */; };
 		A6BDBE66F552F4187FD71ECAD5DC8B91 /* Pods-WYCDynamicTextController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B6369686F58196AD37645D8089724 /* Pods-WYCDynamicTextController_Tests-dummy.m */; };
-		D6D36CF6C6B476E204B2845215E491B3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410201C48C0E06475BFF43A47C803966 /* ReplaceMe.swift */; };
 		F39A9FD9F05A0ECC903D5121672994A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		FBAD13EE1012C2361A19D381049000B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -31,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		1575FAAA99D9E1422E8AB043B3CE8E12 /* Pods-WYCDynamicTextController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYCDynamicTextController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1895FFB41E5999C10028B14C /* WYCDynamicTextController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYCDynamicTextController.swift; sourceTree = "<group>"; };
 		1C2BD204758A12165746381B4A2A1A29 /* Pods-WYCDynamicTextController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYCDynamicTextController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1DBE9589133508FD69A21BAE05C0FCF5 /* Pods-WYCDynamicTextController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYCDynamicTextController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		24B9E1584EFCB22960E12537A432A8EB /* WYCDynamicTextController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYCDynamicTextController-dummy.m"; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		30F6B79F829554D9870167C784CAFF1B /* WYCDynamicTextController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WYCDynamicTextController.modulemap; sourceTree = "<group>"; };
 		3264D80BE482FA6F3BCF215C9FA06131 /* Pods_WYCDynamicTextController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYCDynamicTextController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E505B688EFACB4E98BA3653E7BC34AE /* Pods-WYCDynamicTextController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYCDynamicTextController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		410201C48C0E06475BFF43A47C803966 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		41F9A7D12494615CEC3B275EDB5CAAD6 /* Pods-WYCDynamicTextController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYCDynamicTextController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		42FD8846F9AC8BFB98DFE077092A27E6 /* Pods-WYCDynamicTextController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYCDynamicTextController_Example-dummy.m"; sourceTree = "<group>"; };
 		461FC39EA24F10850DF11EDE921BD413 /* WYCDynamicTextController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYCDynamicTextController.xcconfig; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 		ACFF12A21BA35F001A90F5E2A6F643E9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				410201C48C0E06475BFF43A47C803966 /* ReplaceMe.swift */,
+				1895FFB41E5999C10028B14C /* WYCDynamicTextController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -345,7 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6D36CF6C6B476E204B2845215E491B3 /* ReplaceMe.swift in Sources */,
+				1895FFB61E599A040028B14C /* WYCDynamicTextController.swift in Sources */,
 				139E29C72452045C36D51B47BD619E81 /* WYCDynamicTextController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E505B688EFACB4E98BA3653E7BC34AE /* Pods-WYCDynamicTextController_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -604,6 +605,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5CE4105D18F1C0A14CEAF168F0E765EC /* Pods-WYCDynamicTextController_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
