@@ -24,6 +24,12 @@ open class WYCDynamicTextController: UIViewController
     
     private var width, height: CGFloat!
     private var gestureState: panGestureState = .NONE
+    {
+        didSet
+        {
+            stateChanged()
+        }
+    }
     
     public var minFrameLength: CGFloat = 16
     public var minDist: CGFloat = 14
@@ -36,7 +42,6 @@ open class WYCDynamicTextController: UIViewController
         height = view.frame.height
         
         textField = UITextField(frame: CGRect(x: 96, y: 96, width: 192, height: 24))
-        textField.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.5)
         textField.font = .systemFont(ofSize: 24)
         textField.returnKeyType = .done
         textField.delegate = self
@@ -157,6 +162,11 @@ open class WYCDynamicTextController: UIViewController
         let xDist = a.x - b.x
         let yDist = a.y - b.y
         return sqrt(xDist * xDist + yDist * yDist)
+    }
+    
+    open func stateChanged()
+    {
+        
     }
 }
 
