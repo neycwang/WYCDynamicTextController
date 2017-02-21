@@ -8,7 +8,7 @@
 
 import UIKit
 
-private enum panGestureState
+public enum panGestureState
 {
     case UPPERLEFT
     case LOWERLEFT
@@ -23,7 +23,7 @@ open class WYCDynamicTextController: UIViewController
     public var textField: UITextField!
     
     private var width, height: CGFloat!
-    private var gestureState: panGestureState = .NONE
+    public var gestureState: panGestureState = .NONE
     {
         didSet
         {
